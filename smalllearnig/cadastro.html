@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de cadastro</title>
+    <link rel = "stylesheet" href = "style2.css"> 
+</head>
+<body>
+    <img src="assets/image/Smalll.png" alt="cadastrologo" class="logocad">
+    <div class="container">
+        <h2>Formulário de Contato</h2>
+        <form action="#" method="POST">
+            <label for="nome">Nome da Criança :</label>
+            <input type="text" id="nome" name="nome" required>
+               
+            <label for="numeros">Idade da Criança:</label>
+            <input type="number" id="numeros" name="numeros" required>
+            
+           <label for="nome-resp">Nome do Responsável :</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="numeros">Idade do Responsável:</label>
+<input type="number" id="numeros" name="numeros" required>
+
+           
+            <label for="assunto">Sexo da criança </label>
+            <select id="assunto" name="assunto" required>
+            <option value="" disabled selected></option>
+            <option value="Menino">Masculino</option>
+            <option value="Menina">Feminino</option>
+        </select>
+
+        <label for="assunto">Sexo do Responsável: </label>
+        <select id="assunto" name="assunto" required>
+        <option value="" disabled selected></option>
+        <option value="Menino">Masculino</option>
+        <option value="Menina">Feminino</option>
+    </select>
+
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <label for="senha-confirm">confirmar senha:</label>
+            <input type="password" id="senha" name="senha" required> 
+
+            
+
+            <label> Quero receber recados por Email <input type="checkbox" name="newsletter" value="sim">
+
+               
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
